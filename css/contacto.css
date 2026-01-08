@@ -1,0 +1,106 @@
+/* --- Sección General --- */
+.contact-info-section {
+    padding: 60px 0px;
+    /* background-color: #1a1a1a; */
+    /* Fondo oscuro elegante */
+    color: #f0f0f0;
+    margin: 15px 0px -29px 0px;
+    /* Texto claro */
+    text-align: center;
+}
+
+
+
+/* --- Contenedor de Tarjetas (Uso de Grid/Flexbox) --- */
+.contact-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Responsive Grid */
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Estilo de Cada Tarjeta de Contacto --- */
+
+
+.contact-card:hover {
+    transform: translateY(-10px);
+    /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 15px 30px rgba(0 255 238 / 50%);
+}
+
+/* --- Íconos --- */
+.icon {
+    font-size: 3em;
+    color: #007bff;
+    /* Color de acento */
+    margin-bottom: 15px;
+    display: block;
+    /* Para centrarlo mejor */
+}
+
+/* --- Títulos y Párrafos --- */
+.card-title {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* --- Enlace de Acción --- */
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* .button-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+} */
+
+.contact-link:hover {
+    background-color: #007bff;
+}
+
+/* --- Media Queries para Teléfonos (Opcional) --- */
+@media (max-width: 600px) {
+    .contact-info-section h2 {
+        font-size: 2em;
+    }
+
+    .contact-card {
+        padding: 25px 20px;
+    }
+}
+
+/* --- Sección de Redes Sociales(poner todos en una sola linea dejando espacio suficiente   ) --- */
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}

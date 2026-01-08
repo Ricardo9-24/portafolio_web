@@ -1,0 +1,128 @@
+[
+    {
+        "titulo": "JavaScript Moderno",
+        "descripcion": "Experiencia sólida en ES6+, incluyendo promesas, async/await y manipulación avanzada del DOM.",
+        "categoria": "Lenguaje",
+        "etiquetas": [
+            "frontend",
+            "backend"
+        ],
+        "experiencia_anios": 5
+    },
+    {
+        "titulo": "MySQL Workbench",
+        "descripcion": "Diseño, optimización y administración de esquemas de bases de datos relacionales.",
+        "categoria": "Herramienta",
+        "etiquetas": [
+            "base de datos"
+        ],
+        "experiencia_anios": 4
+    },
+    {
+        "titulo": "Node.js",
+        "descripcion": "Construcción de APIs REST, manejo de eventos y aplicaciones escalables del lado del servidor.",
+        "categoria": "Runtime",
+        "etiquetas": [
+            "backend",
+            "api"
+        ],
+        "experiencia_anios": 5
+    },
+    {
+        "titulo": "Docker",
+        "descripcion": "Contenerización de aplicaciones, creación de imágenes y gestión de entornos aislados.",
+        "categoria": "DevOps",
+        "etiquetas": [
+            "infraestructura",
+            "deploy"
+        ],
+        "experiencia_anios": 2
+    },
+    {
+        "titulo": "PHP con Laravel",
+        "descripcion": "Desarrollo de aplicaciones web robustas utilizando el framework Laravel, arquitectura MVC, Eloquent ORM y APIs REST.",
+        "categoria": "Framework",
+        "etiquetas": [
+            "php",
+            "laravel",
+            "api"
+        ],
+        "experiencia_anios": 5
+    },
+    {
+        "titulo": "JavaScript con Angular",
+        "descripcion": "Creación de aplicaciones SPA utilizando Angular, TypeScript, componentes reutilizables y consumo de APIs.",
+        "categoria": "Framework",
+        "etiquetas": [
+            "javascript",
+            "angular",
+            "spa"
+        ],
+        "experiencia_anios": 4
+    },
+    {
+        "titulo": "jQuery",
+        "descripcion": "Manipulación del DOM, manejo de eventos y peticiones AJAX para mejorar la interactividad en aplicaciones web.",
+        "categoria": "Framework",
+        "etiquetas": [
+            "javascript",
+            "jquery",
+            "ajax"
+        ],
+        "experiencia_anios": 3
+    },
+    {
+        "titulo": "CSS y Diseño Responsive",
+        "descripcion": "Maquetación web con CSS3, Flexbox, Grid y diseño adaptable para múltiples dispositivos.",
+        "categoria": "Frontend",
+        "etiquetas": [
+            "css",
+            "responsive",
+            "ui"
+        ],
+        "experiencia_anios": 5
+    },
+    {
+        "titulo": "Node.js y Express",
+        "descripcion": "Desarrollo de servidores backend con Node.js y Express, creación de APIs REST y middleware personalizado.",
+        "categoria": "Backend",
+        "etiquetas": [
+            "nodejs",
+            "express"
+        ],
+        "experiencia_anios": 1
+    },
+    {
+        "titulo": "AWS EC2",
+        "descripcion": "Despliegue y administración de aplicaciones web en instancias EC2, configuración de servidores y seguridad básica.",
+        "categoria": "Cloud",
+        "etiquetas": [
+            "aws",
+            "ec2",
+            "deploy"
+        ],
+        "experiencia_anios": 2
+    },
+    {
+        "titulo": "Postman",
+        "descripcion": "Pruebas, documentación y validación de APIs REST mediante colecciones y entornos.",
+        "categoria": "Herramienta",
+        "etiquetas": [
+            "api",
+            "testing",
+            "postman"
+        ],
+        "experiencia_anios": 4
+    },
+    {
+        "titulo": "MySQL Workbench",
+        "descripcion": "Administración visual de bases de datos MySQL, modelado ER y ejecución de consultas SQL.",
+        "categoria": "Herramienta",
+        "etiquetas": [
+            "mysql",
+            "database",
+            "modelado"
+        ],
+        "experiencia_anios": 5
+    }
+]

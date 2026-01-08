@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Chat con Api Meta whatsapp Business",
+        "cuerpo": "Desarrollo de un sistema de carrito y gestión de pedidos.",
+        "lenguaje": "Python",
+        "herramientas": [
+            "MySQL Workbench",
+            "Postman"
+        ],
+        "anio": 2024
+    },
+    {
+        "titulo": "E-commerce Backend",
+        "cuerpo": "Desarrollo de un sistema de carrito y gestión de pedidos.",
+        "lenguaje": "Python",
+        "herramientas": [
+            "MySQL Workbench",
+            "Postman"
+        ],
+        "anio": 2024
+    }
+]

@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.contact-mail-section {
+    padding: 15px 0;
+}
+
+
+#contact-mail-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-mail-form .form-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+#contact-mail-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#contact-mail-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.border {
+    /* Estilos de Tipografía y Fondo */
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    /* Configuración para el Efecto de Borde */
+    position: relative;
+    /* **IMPORTANTE**: Necesario para posicionar el borde giratorio */
+    z-index: 1;
+    /* Asegura que el texto esté por encima del borde */
+    overflow: hidden;
+    /* Oculta partes de la rotación si el borde es complejo */
+    border-radius: 8px;
+    /* Opcional: para bordes redondeados */
+    transition: color 0.4s;
+}

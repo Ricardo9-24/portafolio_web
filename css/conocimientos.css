@@ -1,0 +1,35 @@
+/* ===================  Funciona    =============== */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: contents;
+    gap: 16px;
+    animation: scroll 10s linear infinite;
+}
+
+.carousel-container:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+/* Animación infinita */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-90%);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        min-width: 200px;
+        height: 130px;
+    }
+}
